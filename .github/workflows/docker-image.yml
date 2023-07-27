@@ -34,8 +34,8 @@ jobs:
           
       - name: Push Docker Image
         run: |
-          docker build -t cristopherva/nest-graphql:0.0.2
-          docker build -t cristopherva/nest-graphql:latest
+          docker push -t cristopherva/nest-graphql:0.0.2
+          docker push -t cristopherva/nest-graphql:latest
 
 
 
