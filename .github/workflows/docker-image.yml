@@ -30,7 +30,7 @@ jobs:
       - name: Build Docker Image
         run: |
           docker build -t cristopherva/nest-graphql:0.0.2 .
-          docker build -t cristopherva/nest-graphql:latest
+          docker build -t cristopherva/nest-graphql:latest .
           
       - name: Push Docker Image
         run: |
